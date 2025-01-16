@@ -12,14 +12,14 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviders {
-    @DataProvider
-    public Iterator<Object[]> addNewContact() {
-        List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"Dani", "Larson", "26475837583", "kann@fromm.de", "London", "Manager"});
-        list.add(new Object[]{"Dana", "Lowrens", "26475834758473", "kast@fromm.de", "Paris", "Tester"});
-        list.add(new Object[]{"Fanni", "Leroy", "264758385947", "kastoma@fromm.de", "Lissabon", "Manager"});
-        return list.iterator();
-    }
+//    @DataProvider
+//    public Iterator<Object[]> addNewContact() {
+//        List<Object[]> list = new ArrayList<>();
+//        list.add(new Object[]{"Dani", "Larson", "26475837583", "kann@fromm.de", "London", "Manager"});
+//        list.add(new Object[]{"Dana", "Lowrens", "26475834758473", "kast@fromm.de", "Paris", "Tester"});
+//        list.add(new Object[]{"Fanni", "Leroy", "264758385947", "kastoma@fromm.de", "Lissabon", "Manager"});
+//        return list.iterator();
+//    }
 
     @DataProvider
     public Iterator<Object[]> addNewContactWithCsv() throws IOException {
